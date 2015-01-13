@@ -2,7 +2,7 @@
   "author": "Kenneth Auchenberg (@auchenberg)",
   "bin": {
     "drcast": "./index.js"
-  },  
+  },
   "description": "",
   "name": "tvcast",
   "version": "1.0.0",
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "chalk": "^0.5.1",
+    "castnow": "^0.4.7",
     "inquirer": "^0.8.0",
     "request": "^2.51.0"
   }

@@ -2,7 +2,6 @@
 
 var request = require('request');
 var inquirer = require('inquirer');
-var chalk = require('chalk');
 var spawn = require('child_process').spawn;
 
 var API = {

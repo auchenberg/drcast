@@ -1,7 +1,7 @@
 drcast
 =======
 
-Cast DR TV channels to your ChromeCast, directly from the command line.
+Cast DR TV channels to your Chromecastfrom the command line.
 
 
 Installation and Usage

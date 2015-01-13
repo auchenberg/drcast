@@ -10,6 +10,7 @@ Installation and Usage
 ```
 npm install -g drcast
 drcast
+<choose channel from list>
 ```
 
 License

@@ -16,7 +16,7 @@ request({
 }, function(err, response, body) {
 
     if (err) {
-        return callback(new Error('API query failure: ' + err.message));
+        throw new Error('API query failure: ' + err.message);
     }
 
     var result = JSON.parse(body);

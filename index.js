@@ -8,7 +8,7 @@ var API = {
     dr: 'http://www.dr.dk/mu-online/api/1.1/channel/all-active-dr-tv-channels'
 };
 
-process.title = 'tvcast';
+process.title = 'drcast';
 
 request({
     method: 'GET',

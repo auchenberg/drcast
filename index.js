@@ -42,6 +42,8 @@ request({
 
         if(HLSstream) {
             var streamUrl = HLSstream.Server + '/' + HLSstream.Qualities[0].Streams[0].Stream;
+            console.log('.. stream found', streamUrl);
+            console.log('.. booting castnow');
             return spawn('node_modules/castnow/index.js', [streamUrl].concat(options), { stdio: 'inherit' });
 
         } else {
@@ -51,4 +53,3 @@ request({
     });
 
 });
-
